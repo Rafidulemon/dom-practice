@@ -2,3 +2,46 @@
     background-color: black;
     color: white;
 }
+.main-div{
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+#form{
+    padding-left: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+input{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    padding-left: 12px;
+}
+button{
+    width: 100%;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 4px;
+    height: 30px;
+    cursor: pointer
+}
+input:focus{
+    outline: none;
+}
+.error {
+    color: crimson;
+    font-size: 12px;
+}
+
+.success {
+    color: limegreen;
+    font-size: 14px;
+    text-align: center;
+}

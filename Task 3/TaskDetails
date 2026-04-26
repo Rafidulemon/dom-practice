@@ -1,0 +1,11 @@
+Name: Counter App
+
+What to Practice: event listeners, state update
+
+Task Details: Create a counter that updates the displayed number based on button clicks.
+
+Expected Features: 
+            Increment, 
+            decrement, 
+            reset, 
+            display current count.

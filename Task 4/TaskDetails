@@ -1,0 +1,11 @@
+Name: Form Validation
+
+What to Practice: input.value, preventDefault
+
+Task Details: Create a form and validate fields before submission without page reload.
+
+Expected Features: 
+            preventDefault, 
+            required validation, 
+            email validation, 
+            show error/success message.
