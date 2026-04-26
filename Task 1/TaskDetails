@@ -1,0 +1,12 @@
+Name: Todo App (Basic)
+
+What to Practice: createElement, appendChild
+
+Task Details: Build a simple todo app where a user can type a task and add it to a visible list.
+
+Expected Features: 
+            Input field, 
+            Add button, 
+            render new task, 
+            clear input after adding, 
+            block empty task.

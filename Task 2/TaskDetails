@@ -1,0 +1,11 @@
+Name: Todo App (Advanced)
+
+What to Practice: complete, delete, filter
+
+Task Details: Extend the todo app with completed state, delete action, and task filtering.Build a simple todo app where a user can type a task and add it to a visible list.
+
+Expected Features: 
+            Add task, 
+            delete task, 
+            mark complete, 
+            show all/active/completed tasks.

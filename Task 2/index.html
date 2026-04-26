@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-div">
+      <h1>Todo App(Advanced)</h1>
+      <div class="input-form">
+        <input id="input" placeholder="Enter a task name" />
+        <button id="add-btn">Add New</button>
+      </div>
+      <div id="task-list">
+        <h4>Task List</h4>
+        <div class="filter-btns">
+  <button class="filter-btn active-filter" id="all">All</button>
+  <button class="filter-btn" id="active">Active</button>
+  <button class="filter-btn" id="completed">Completed</button>
+</div>
+        <table id="table">
+          <thead>
+            <th>Status</th>
+            <th>Name</th>
+            <th>Action</th>
+          </thead>
+          <tbody id="table-body">
+           
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

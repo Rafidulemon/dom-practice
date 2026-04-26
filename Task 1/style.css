@@ -1,0 +1,50 @@
+* {
+    background-color: black;
+    color: white;
+}
+.main-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-form {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    height: 30px;
+}
+
+#input {
+    width: 250px;
+    padding-left: 8px;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    border: none;
+}
+#input:focus {
+    outline: none;
+}
+
+#add-btn{
+    background-color: blueviolet;
+    border-radius: 6px;
+    border: none;
+    width: 80px;
+    cursor: pointer;
+}
+
+#add-btn:hover{
+    scale: 1.05;
+}
+#task-list{
+    display: flex;
+    width: 365px;
+    padding-top: 40px;
+    flex-direction: column;
+    gap: 6px;
+    align-items: start;
+    justify-content: start;
+}
