@@ -1,0 +1,36 @@
+.custom-sticky-header {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 9999 !important;
+  background: white !important;
+}
+
+.custom-hamburger {
+  display: none;
+  font-size: 28px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #111;
+}
+
+.custom-sticky-header.scrolled .custom-nav-menu {
+  display: none !important;
+}
+
+.custom-sticky-header.scrolled .custom-hamburger {
+  display: block !important;
+}
+
+.custom-sticky-header.scrolled .custom-nav-menu.show-dropdown {
+  display: flex !important;
+  position: absolute;
+  top: 100%;
+  right: 20px;
+  background: white;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
