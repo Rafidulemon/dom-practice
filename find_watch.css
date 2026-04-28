@@ -1,0 +1,133 @@
+.root-div {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+	min-height: 200px;
+	margin-top: 20px;
+	width: 100vw;
+	justify-content: start;
+	align-items: center;
+	color: white;
+	padding: 10px;
+}
+
+.title {
+	display: flex;
+	padding-top: 10px;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+}
+
+.subtitle {
+	display: flex;
+	flex-direction: row;
+	color: #CACACA !important;
+	justify-content: center;
+	align-content: center;
+}
+
+.startBtn {
+	background: linear-gradient(135deg, #667eea, #764ba2);
+	color: white !important;
+	width: 300px;
+	align-items: center;
+	padding-top: 4px;
+	padding-bottom: 4px !important;
+	border-radius: 8px;
+	border: none;
+	transition: transform 0.3s ease;
+	margin-top: 20px;
+}
+
+.startBtn:hover {
+	transform: scale(1.05);
+	font-weight: 700;
+}
+
+.options-wrapper {
+	display: flex;
+	flex-direction: row;
+	gap: 6px;
+	justify-content: center;
+	align-items: center;
+}
+
+.option-btn {
+	background-color: #B2BEB5;
+	cursor: pointer;
+	color: black !important;
+	padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+	transition: transform 0.3s ease;
+}
+
+.option-btn:hover {
+	transform: scale(1.05);
+	font-weight: 700;
+}
+
+.option-btn.selected {
+	background-color: #667eea;
+	color: white !important;
+	font-weight: 700;
+	transform: scale(1.05);
+	box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.nav-wrapper {
+	display: flex;
+	flex-direction: row; 
+	gap: 6px;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.nav-btn {
+	padding: 8px 8px;
+	width: 100px;
+	border: none;
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+.nav-btn:hover {
+	background-color: #667eea;
+	color: white;
+}
+
+.nav-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+.nav-btn:disabled:hover {
+  background-color: initial;
+  color: initial;
+}
+
+.match-text {
+  text-align: center;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.watch-card {
+  background: #1f1f1f;
+  padding: 14px;
+  border-radius: 10px;
+  width: 220px;
+  text-align: center;
+}
+
+.watch-img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.options-wrapper {
+  flex-wrap: wrap;
+}
